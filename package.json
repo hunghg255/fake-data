@@ -1,0 +1,22 @@
+{
+  "name": "json-server-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run generate-data && nodemon main.js",
+    "start": "npm run generate-data && node main.js",
+    "generate-data": "node generate-data.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3",
+    "query-string": "^7.0.0"
+  },
+  "devDependencies": {
+    "faker": "^5.5.1",
+    "nodemon": "^2.0.7"
+  }
+}
